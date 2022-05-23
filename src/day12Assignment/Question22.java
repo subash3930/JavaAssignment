@@ -16,7 +16,7 @@ public class Question22 {
 			
 		}
 		System.out.println("Exit");
-		input.close();
+		input.close();// for closing input
 	}
 
 }

@@ -9,12 +9,11 @@ public class Question23 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Please enter the Number for sum from 1 to numbers");
 		int n = input.nextInt();
-		int sum =0;
-		for(int i=1;i<=n;i++) {
-		sum=sum+i;
-		
+		int sum = 0;
+		for (int i = 1; i <= n; i++) {
+			sum = sum + i;
 
+		}
+		System.out.println("The sum is " + sum);
 	}
-System.out.println("The sum is "+sum);
-}
 }
