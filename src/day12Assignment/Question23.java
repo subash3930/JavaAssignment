@@ -15,5 +15,6 @@ public class Question23 {
 
 		}
 		System.out.println("The sum is " + sum);
-	}
+		input.close();
+		}
 }
