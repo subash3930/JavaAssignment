@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class SubashTakeHomeProjectTest {
 
 	public static void main(String[] args) {
-		double total = 00.00;
-		String decision = "";
+	
 		SubashTakeHomeProject ob = new SubashTakeHomeProject();
 		ob.displayMainMenu();
 		Scanner input = new Scanner(System.in);
