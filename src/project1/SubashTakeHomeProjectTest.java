@@ -11,7 +11,6 @@ public class SubashTakeHomeProjectTest {
 		ob.displayMainMenu();
 		Scanner input = new Scanner(System.in);
 		DecimalFormat format = new DecimalFormat("0.00");
-
 		System.out.println("Enter the number of people to be served:");
 		int people = input.nextInt();
 		if (people < 10) {
